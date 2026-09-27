@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#ffffff">
+
+<!-- EDIT: name, one-line description, and your domain in the two URLs -->
+<title>Sib</title>
+<meta name="description" content="Sib Mahapatra is co-founder and chief product officer of Branch, an early-stage investor, writer and teacher in New York City.">
+<meta property="og:title" content="Sib">
+<meta property="og:description" content="Sib Mahapatra is co-founder and chief product officer of Branch, an early-stage investor, writer and teacher in New York City.">
+<meta property="og:type" content="profile">
+<meta property="og:url" content="https://yourname.com/">
+<meta property="og:image" content="https://yourname.com/photo.jpg">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="https://yourname.com/">
+<meta name="author" content="Sib Mahapatra">
+<link rel="alternate" type="text/markdown" href="/llms.txt" title="llms.txt">
+
+<!-- Structured data for search engines. Keep name, photo and profiles identical everywhere you appear.
+     EDIT: add every public profile of yours to "sameAs" (LinkedIn, X, Crunchbase, your Forbes profile, Wikidata) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "https://yourname.com/#person",
+    "name": "Sib Mahapatra",
+    "url": "https://yourname.com/",
+    "image": "https://yourname.com/photo.jpg",
+    "description": "Co-founder and chief product officer of Branch, early-stage investor, writer and teacher in New York City.",
+    "jobTitle": "Co-founder and Chief Product Officer",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Branch",
+      "url": "https://www.branchfurniture.com/"
+    },
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Yale University"
+    },
+    "homeLocation": {
+      "@type": "Place",
+      "name": "New York City"
+    },
+    "award": [
+      "Forbes 30 Under 30"
+    ],
+    "knowsAbout": [
+      "Office furniture",
+      "Ergonomics",
+      "Proptech",
+      "Ecommerce",
+      "Venture capital",
+      "Augmented reality"
+    ],
+    "sameAs": [
+      "https://www.linkedin.com/in/yourhandle/",
+      "https://x.com/yourhandle"
+    ]
+  }
+}
+</script>
+
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='9' fill='%23ff4f00'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --ink: #16171a;
+    --muted: #6b6a64;
+    --field: #d9d8d3;
+    --signal: #ff4f00;
+    --signal-text: #d63d00;
+    --branch: #314438;
+    --serif: 'Newsreader', 'Iowan Old Style', Palatino, Georgia, serif;
+    --mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+  }
+  * { box-sizing: border-box; }
+  html { background: #fff; }
+  @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+  body {
+    margin: 0;
+    background: #fff;
+    color: var(--ink);
+    font: 400 18px/1.6 var(--serif);
+    font-optical-sizing: auto;
+    -webkit-text-size-adjust: 100%;
+    padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
+  }
+  main, footer { max-width: 44rem; margin: 0 auto; padding: 0 1.5rem; }
+  main { padding-top: 5.5rem; }
+
+  a { color: inherit; text-decoration-color: var(--signal); text-decoration-thickness: 1.5px; text-underline-offset: 0.2em; }
+  a:hover { color: var(--signal-text); }
+  a:focus-visible { outline: 2px solid var(--signal); outline-offset: 3px; }
+
+  h1 { font-size: 2.4rem; font-weight: 400; letter-spacing: -0.02em; line-height: 1.1; margin: 0 0 1.5rem; }
+  p { margin: 0 0 1rem; }
+  .lede { font-size: 1.1875rem; line-height: 1.55; }
+  .lede-2 { font-size: 1rem; line-height: 1.6; color: #45464b; }
+
+  .intro { display: grid; grid-template-columns: minmax(0, 1fr) 9rem; column-gap: 2.75rem; align-items: start; }
+  .links { display: flex; flex-wrap: wrap; gap: 0.4rem 1.25rem; font: 400 0.8125rem var(--mono); margin: 1.5rem 0 0; }
+
+  .photo { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 50%; background: #eeece8; margin-top: 0.4rem; }
+
+  section { margin-top: 5rem; scroll-margin-top: 2rem; }
+  .part { font-size: 1.5rem; font-weight: 400; letter-spacing: -0.015em; line-height: 1.2; margin: 5.5rem 0 0; }
+  h3 { font-size: 1.25rem; font-weight: 500; letter-spacing: -0.01em; line-height: 1.25; margin: 0 0 1rem; }
+  h4 { font: 400 0.75rem var(--mono); color: var(--muted); letter-spacing: 0.02em; margin: 2rem 0 0.75rem; }
+  h3 + h4 { margin-top: 0; }
+  .part + section { margin-top: 2.5rem; }
+
+  /* Branch green, as a nod to the brand */
+  .branch-link { color: var(--branch); text-decoration-color: var(--branch); }
+  .branch-link:hover { color: var(--branch); text-decoration-thickness: 2.5px; }
+  #branch h3 { color: var(--branch); }
+
+  .bullets { list-style: none; margin: 1rem 0 1.25rem; padding: 0; }
+  .bullets li { position: relative; padding-left: 1.1rem; line-height: 1.55; }
+  .bullets li + li { margin-top: 0.6rem; }
+  .bullets li::before { content: ''; position: absolute; left: 0; top: 0.68em; width: 0.35rem; height: 0.35rem; border-radius: 50%; background: var(--signal); }
+  .desc { color: var(--muted); }
+  .callout { background: #f5f4f1; border-radius: 6px; padding: 0.85rem 1.1rem; margin: 0 0 1.5rem; }
+  .callout .star { color: var(--signal); font-variant-emoji: text; margin-right: 0.35rem; }
+
+  footer { padding-top: 5rem; padding-bottom: 3rem; font: 400 0.75rem var(--mono); color: var(--muted); }
+
+  @media (max-width: 40rem) {
+    .intro { grid-template-columns: minmax(0, 1fr); }
+    .photo { order: -1; width: 5.5rem; margin: 0 0 1.5rem; }
+  }
+
+  @media (max-width: 34rem) {
+    body { font-size: 17px; }
+    .lede { font-size: 1.125rem; }
+    h3 { font-size: 1.1875rem; }
+    section { margin-top: 4rem; }
+    main { padding-top: 3.5rem; }
+    h1 { font-size: 2rem; }
+        }
+</style>
+</head>
+<body>
+<main>
+
+  <header class="intro">
+  <div>
+
+  <h1>Hi, I'm Sib</h1>
+
+  <p class="lede">Since 2018, I've spent most of my time as co-founder and chief product
+  officer of <a class="branch-link" href="#branch">Branch</a>,
+  a venture-backed startup that makes office furniture, work products and ergonomic tools for people and
+  teams. We've helped half a million people and thousands of teams across North America create workspaces
+  that improve productivity and well-being without breaking the bank. Regular side quests include
+  <a href="#writing">writing</a>, <a href="#investing">investing</a>, <a href="#more">teaching</a>
+  and reading as much as I can. I live in New York City.</p>
+
+  <p class="lede-2">Before Branch, I helped start new business lines at Redfin, traveled the world for a
+  year as a digital nomad, co-founded an incubator for founders without ideas, wrote a (drawer) novel
+  about AI, among other adventures. I graduated from Yale with a BA in Ethics, Politics and Economics.</p>
+
+  <!-- EDIT: your links. Delete any you don't want. -->
+  <p class="links">
+    <a href="https://www.linkedin.com/in/yourhandle/">LinkedIn</a>
+    <a href="mailto:hello@yourname.com">Contact</a>
+  </p>
+
+  </div>
+
+  <!-- photo.jpg: square headshot, cropped to a circle. To change it, upload a new file with the same name. -->
+  <img class="photo" src="photo.jpg" alt="Sib Mahapatra" width="642" height="642">
+
+  </header>
+
+  <h2 class="part">More about me</h2>
+
+  <section id="branch">
+    <h3>Branch</h3>
+    <p>I co-founded <a href="https://web.archive.org/web/20260423024719/https://www.branchfurniture.com/">Branch</a> with Greg Hayes and Verity
+    Sylvester in the fall of 2018. We launched in early 2019 as a proptech startup with the mission of
+    building a software and managed service platform to help teams run their office space end-to-end,
+    starting with office furnishing.</p>
+
+    <p>We ran the business for about six months before COVID put the kibosh on our B2B opportunity for an
+    undefined period. Branch became a consumer brand out of necessity. We knew it would be harder in every
+    way, from distribution to finding competitive advantage. It was even harder than we thought: every year
+    has brought a new challenge, from regulatory changes in the marketing attribution landscape to shipping
+    container surge pricing.</p>
+
+    <p>What makes the mission worth it? We interact with our desk, chair and office accessories for more
+    hours a day than most other products in our lives. Beyond the intrinsic joy of great design in the
+    objects we use most, choosing the right chair and desk—and using them the right way—also has a
+    tremendous impact on well-being.</p>
+
+    <p>Before Branch, most office furniture fell into one of two categories: delightful and ergonomic
+    luxuries priced beyond the reach of most people and teams, or affordable commodities that offered less
+    in the way of design, durability and support.</p>
+
+    <p>Our mission has two phases. The first phase is launching a full line of inspiring and ergonomic
+    office products that make a great day of work accessible to people and teams of all sizes. The second
+    phase is launching physical and digital experiences that work together to change our understanding of
+    how a great office can improve our health, productivity and well-being. We're well into phase two
+    today.</p>
+
+    <p>The teams I lead focus on our growth marketing, digital products and connected products, including
+    our ecommerce site, B2B platform, mobile app for end users, and exciting new products to be
+    announced.</p>
+
+    <p>By the numbers: Branch was the 73rd fastest-growing company in America in 2023 (according to Inc.
+    magazine) and earned me a spot (for better or worse) on the Forbes 30 Under 30 list. We've raised fifteen
+    million in venture capital (not a little, not a lot), served half a million customers across the US and
+    Canada, and generated a quarter billion dollars in cumulative revenue. Our products have been recommended
+    by Wirecutter, Consumer Reports, WIRED, FastCo and more. We have offices in NYC, Toronto and San
+    Francisco, but work remotely with teammates across a dozen states and seven countries.</p>
+
+    <p>You can read more about Branch
+    <a href="https://web.archive.org/web/20260423024719/https://www.forbes.com/sites/frederickdaso/2020/04/25/new-and-growing-startups-use-branch-to-furnish-their-ideal-workspace/">here</a>,
+    <a href="https://web.archive.org/web/20260423024719/https://techcrunch.com/2020/06/11/covid-19-nearly-killed-this-office-furniture-startup-turning-to-home-offices-may-save-it/">here</a>
+    and <a href="https://web.archive.org/web/20260423024719/http://branchfurniture.com/press">here</a>.</p>
+  </section>
+
+  <section id="writing">
+    <h3>Selected writing</h3>
+
+    <h4>current</h4>
+    <p class="callout"><span class="star" aria-hidden="true">&#x2733;&#xFE0E;</span>I'm working on some new writing, which I hope to share soon.</p>
+    <h4>archive</h4>
+    <p>Here's the archive. Areas of interest include real estate tech, VR and AR, the gig economy and
+    automation. Some highlights below:</p>
+    <!-- EDIT: one <li> per piece, newest first -->
+    <ul class="bullets">
+      <li><a href="https://web.archive.org/web/20260210152357/https://techcrunch.com/2019/01/30/how-business-to-business-startups-reduce-inequality/">How B2B Startups Decrease Inequality</a> <span class="desc">(TechCrunch, Jan 2019)</span></li>
+      <li><a href="https://web.archive.org/web/20260210152357/http://www.sibmahapatra.com/redfin-opendoor-zillow-and-the-great-ibuyer-game/">Redfin, Opendoor, Zillow and the Great iBuyer Game</a> <span class="desc">(Jul 2018)</span></li>
+      <li><a href="https://web.archive.org/web/20260210152357/https://techcrunch.com/2018/03/17/vr-presence-and-the-case-of-the-missing-killer-app/">VR, Presence, and the Case of the Missing Killer App</a> <span class="desc">(TechCrunch, Mar 2018)</span></li>
+      <li><a href="https://web.archive.org/web/20260210152357/https://medium.com/@NotationCapital/notation-ar-and-sib-mahapatra-789ef7d314ae">Investing In Augmented Reality</a> <span class="desc">(Notation Capital, Jan 2018)</span></li>
+      <li><a href="https://web.archive.org/web/20260210152357/https://medium.com/@sibjeet/facebook-is-coming-for-zillow-4f06c1d2cf47">Is Facebook Coming For Zillow?</a> <span class="desc">(Inman News, Dec 2017, mirrored on Medium due to paywall)</span></li>
+      <li><a href="https://web.archive.org/web/20260210152357/http://www.telospartners.com/wp-content/uploads/2018/06/Change-Today-Thrive-Tomorrow-TQ-Single.pdf">Agile Talent: The New Agents for Change</a> <span class="desc">(Talent Quarterly, Sep 2017)</span></li>
+      <li><a href="https://web.archive.org/web/20260210152357/https://render.betaworks.com/the-state-of-mobile-ar-a-platform-overview-9f8cd9ec91f4">The State of Mobile AR: A Platform Overview</a> <span class="desc">(Render/Betaworks, Aug 2017)</span></li>
+      <li><a href="https://web.archive.org/web/20260210152357/https://www.toptal.com/insights/innovation/how-autonomous-driving-created-a-talent-war">How Autonomous Driving Created A Talent War</a> <span class="desc">(Toptal Insights, Jul 2017)</span></li>
+      <li><a href="https://web.archive.org/web/20260210152357/https://techcrunch.com/2017/02/17/the-bull-case-for-snapchat/">The Bull Case for Snapchat</a> <span class="desc">(TechCrunch, Feb 2017, <a href="https://web.archive.org/web/20260210152357/https://news.ycombinator.com/item?id=13671439">HN discussion</a>)</span></li>
+      <li><a href="https://web.archive.org/web/20260210152357/https://medium.com/@sibjeet/inside-opendoor-what-two-years-of-transactions-say-about-their-prospects-73a0a2d5b49">Inside Opendoor: What 2 Years of Transaction Data Say About Their Prospects</a> <span class="desc">(Inman News, Dec 2016, mirrored on Medium due to paywall, <a href="https://web.archive.org/web/20260210152357/https://www.nytimes.com/2017/05/24/technology/opendoor-start-up-home-sales.html">cited in NYT</a>)</span></li>
+      <li><a href="https://web.archive.org/web/20260210152357/http://www.asktrim.com/blog/how-elizabeth-warren-took-down-the-ceo-of-wells-fargo-and-why-it-matters/">How Elizabeth Warren Took Down The CEO of Wells Fargo, And Why It Matters</a> <span class="desc">(Trim Blog, Nov 2016, <a href="https://web.archive.org/web/20260210152357/https://news.ycombinator.com/item?id=13059683">HN discussion</a>)</span></li>
+    </ul>
+  </section>
+
+  <section id="investing">
+    <h3>Investing</h3>
+    <p class="callout"><span class="star" aria-hidden="true">&#x2733;&#xFE0E;</span>I invest small checks into startups personally and as a scout for Bain Capital Ventures. I invest as
+    early as possible, and stick to three areas in which I have a prepared mind and a shot at actually
+    being helpful to founders: commerce / martech, proptech, and select brands. A final area is supporting
+    brilliant friends in whatever they decide to build.</p>
+
+    <p>Active investments include:</p>
+    <!-- EDIT: one bullet per area; companies separated by commas -->
+    <ul class="bullets">
+      <li>Commerce: <a href="https://highbeam.com">Highbeam</a> <span class="desc">(neobank for brands)</span>, <a href="https://upscale.ai">Upscale</a> <span class="desc">(creative generation + DSP for connected TV)</span>, <a href="https://heavi.ai">Heavi.ai</a> <span class="desc">(managed marketplace for heavy trucking)</span>, <a href="https://intelligems.com">Intelligems</a> <span class="desc">(AB testing and personalization)</span>, <a href="https://www.fermatcommerce.com/">Fermat</a> <span class="desc">(personalized ecommerce at scale)</span>, Workmagic <span class="desc">(incrementality testing)</span>, Clerq <span class="desc">(pay by bank)</span>, DayZero <span class="desc">(bookkeeping automation)</span></li>
+      <li>Proptech: <a href="https://boompay.app/">Boom Pay</a> <span class="desc">(modern rental financial services)</span>, Inspectify <span class="desc">(simplifying property inspections)</span>, Oun Homes <span class="desc">(back office automation for real estate)</span></li>
+      <li>Brands: <a href="https://tincan.kids">Tin Can</a> <span class="desc">(new school landline for kids)</span>, <a href="https://rosehome.com/">Rose</a> <span class="desc">(keeping your home healthy)</span></li>
+      <li>General: <a href="https://www.sparkadvisors.com/">Spark</a> <span class="desc">(a better way to help seniors find Medicare)</span>, <a href="https://inherentlabs.ai/">Inherent</a> <span class="desc">(recursively self-improving to discover new knowledge)</span>, <a href="https://every.to/">Every</a> <span class="desc">(applied AI lab for work and thought)</span>, <a href="https://www.spara.com/">Spara</a> <span class="desc">(conversational AI that closes)</span>, <a href="https://fonzi.ai">Fonzi</a> <span class="desc">(recruiting for the AI age)</span>, <a href="https://unitzero.ai">UnitZero.ai</a> <span class="desc">(training data for robots)</span></li>
+    </ul>
+
+    <!-- EDIT: the same email address as in your links above -->
+    <p>If you're working on an idea that might be relevant, feel free to
+    <a href="mailto:hello@yourname.com">reach out</a>!</p>
+  </section>
+
+  <section id="more">
+    <h3>Even more…</h3>
+    <ul class="bullets">
+      <li>For the past two years, I've taught a course at Yale called Becoming A Founder, which is not-so-secretly a class on finding and following intrinsic motivations.</li>
+      <li>In 2018, I was a <a href="https://web.archive.org/web/20260423024719/https://technical.ly/brooklyn/2018/02/12/power-moves-notation-capital-adds-venture-fellow-fred-benenson-back-kickstarter/">Venture Fellow</a> at <a href="https://web.archive.org/web/20260423024719/https://notation.vc/">Notation Capital</a>, where I researched <a href="https://web.archive.org/web/20260423024719/https://medium.com/notation-capital/notation-ar-and-sib-mahapatra-789ef7d314ae">frontier tech</a> and explored ideas in real estate, AR/VR, the gig economy and publishing.</li>
+      <li>In 2017, I co-founded <a href="https://web.archive.org/web/20260423024719/http://www.recesslabs.com/">Recess Labs</a>, a community in NYC for technologists <a href="https://web.archive.org/web/20260423024719/https://hackernoon.com/announcing-recess-labs-gct-18808b5c8d14">exploring new ideas</a>. In the year I ran the program, we <a href="https://web.archive.org/web/20260423024719/https://grandcentraltech.com/recess-labs-grand-central-tech/">partnered with Grand Central Tech</a> to serve 30 fellows across two batches. Products incubated at Recess include <a href="https://web.archive.org/web/20260423024719/http://www.vowel.com/">Vowel</a> and <a href="https://web.archive.org/web/20260423024719/http://www.getmainstreet.com/">Main Street</a>, which have raised $25M+ of venture funding to date. Most importantly, I met some of my best friends to this day through this community.</li>
+      <li>From summer 2016 through spring 2017, I traveled around Europe, Asia and North America. Highlights include joining a road trip from London to Mongolia as part of the <a href="https://web.archive.org/web/20260423024719/http://www.instagram.com/badlatitudes">largest team ever fielded</a> for the Mongol Rally and writing a drawer novel. While traveling, I consulted for startups including <a href="https://web.archive.org/web/20260423024719/http://www.asktrim.com/">Trim</a>, <a href="https://web.archive.org/web/20260423024719/http://www.betaworks.com/">Betaworks</a> and <a href="https://web.archive.org/web/20260423024719/http://www.toptal.com/">Toptal</a>.</li>
+      <li>From 2013 to 2016, I was the first hire on the New Ventures team at <a href="https://web.archive.org/web/20260423024719/http://www.redfin.com/">Redfin</a>. I worked on partnerships, corp dev and incubating new business lines, including: our acquisition of <a href="https://web.archive.org/web/20260423024719/https://www.redfin.com/blog/2014/10/redfin-buys-walk-score.html">Walk Score</a>, writing the first business plan for <a href="https://web.archive.org/web/20260423024719/https://www.redfin.com/now">Redfin Now</a>, and leading our <a href="https://web.archive.org/web/20260423024719/https://www.xconomy.com/seattle/2016/02/03/is-2016-the-year-virtual-reality-platforms-take-a-magic-leap/">exploration of VR</a>.</li>
+      <li>I studied Ethics, Politics and Economics at Yale. While there, I learned about investing over three years interning for David Swensen and the team at the <a href="https://web.archive.org/web/20260423024719/http://investments.yale.edu/">Yale Endowment</a>.</li>
+    </ul>
+  </section>
+
+</main>
+
+<!-- EDIT: your name -->
+<footer>© Sib Mahapatra &nbsp; <a href="/llms.txt">llms.txt</a></footer>
+
+</body>
+</html>
